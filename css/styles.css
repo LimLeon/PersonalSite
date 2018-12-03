@@ -1,0 +1,154 @@
+body {
+  color: #40514E;
+  font-family: 'Merriweather', serif;
+  margin: 0;
+  text-align: center;
+}
+
+h1 {
+  color: #66BFBF;
+  font-family: 'Sacramento', cursive;
+  font-size: 5.625rem;
+  margin: 50px auto 0 auto;
+}
+
+h2 {
+  color: #66BFBF;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 2.5rem;
+}
+
+h3 {
+  color: #11999E;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: bold;
+}
+
+a{
+  color: #11999E;
+  text-decoration: none;
+}
+
+a:hover{
+  color: #EAF6F6;
+}
+
+hr{
+  border-color: #CEDEFF;
+  border-style: dotted none none none;
+  border-width: thick;
+  margin: 70px auto;
+  width: 3%;
+}
+
+p{
+  line-height: 2;
+}
+
+.top_container {
+  background-color: #EAF6F6;
+  padding-top: 100px;
+  position: relative;
+}
+
+.middle_container {
+  margin-top: 50px;
+}
+
+.bottom_container{
+  background-color: #66BFBF;
+  padding: 30px 0 10px;
+}
+
+.novice {
+  text-decoration: underline;
+}
+
+.cloud1 {
+  left: 1050px;
+  position: absolute;
+  top: 20px;
+}
+
+.cloud2 {
+  left: 330px;
+  position: absolute;
+}
+
+.profile-pic {
+  border-radius: 50%;
+  margin-top: 20px;
+}
+
+.profile-desc{
+
+  margin: auto;
+  width: 30%;
+}
+
+.skill-row {
+  margin: 100px auto;
+  text-align: left;
+  width: 50%;
+}
+
+.cooking-img{
+  border-radius: 50%;
+  float: left;
+  margin-right: 30px;
+  width: 25%;
+}
+
+.eating-img{
+  border-radius: 50%;
+  float: right;
+  margin-left: 30px;
+  width: 25%;
+}
+
+.btn{
+  background: #66BFBF;
+  background-image: -webkit-linear-gradient(top, #66BFBF, #0b6b6e);
+  background-image: -moz-linear-gradient(top, #66BFBF, #0b6b6e);
+  background-image: -ms-linear-gradient(top, #66BFBF, #0b6b6e);
+  background-image: -o-linear-gradient(top, #66BFBF, #0b6b6e);
+  background-image: linear-gradient(to bottom, #66BFBF, #0b6b6e);
+  -webkit-border-radius: 10;
+  -moz-border-radius: 10;
+  border-radius: 10px;
+  font-family: Arial;
+  color: #ffffff;
+  font-size: 20px;
+  padding: 10px 20px 10px 20px;
+  text-decoration: none;
+}
+
+.btn:hover {
+  background: #3cb0fd;
+  background-image: -webkit-linear-gradient(top, #3cb0fd, #3498db);
+  background-image: -moz-linear-gradient(top, #3cb0fd, #3498db);
+  background-image: -ms-linear-gradient(top, #3cb0fd, #3498db);
+  background-image: -o-linear-gradient(top, #3cb0fd, #3498db);
+  background-image: linear-gradient(to bottom, #3cb0fd, #3498db);
+  text-decoration: none;
+}
+
+.contact-me-desc{
+  margin: 40px auto 60px;
+  width: 40%;
+}
+
+.contact-me{
+  margin-bottom: 80px;
+}
+
+.footer-link{
+  color: #11999E;
+  margin: 20px;
+}
+
+.copyright{
+  color: #EAF6F6;
+  padding: 10px 0 0;
+  font-size: 0.75rem;
+}
